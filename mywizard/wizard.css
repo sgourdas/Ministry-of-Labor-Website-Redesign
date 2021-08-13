@@ -1,0 +1,114 @@
+/* Style the form */
+#regForm {
+  background-color: #f4f4f4;
+  border-radius: 15px;
+  margin: 20px auto;
+  padding: 40px;
+  width: 80%;
+  min-width: 300px;
+}
+
+#regForm div span {
+  font-weight: 130%;
+  font-size: 20px;
+}
+
+/* Style the input fields */
+#regForm input {
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+/*  font-size: 17px;
+  font-family: Raleway;*/
+  width: 80%;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  /* outline: #2c5aa0; */
+}
+
+input:invalid {
+    name: "wrong";
+    background-color: #ffdddd;
+}
+/* input:focus {
+    outline: 2px solid orange;
+} */
+
+/* @media only screen and (max-width: 1160px) {
+    .input {
+        width: 50%;
+    }
+} */
+textarea.invalid {
+    background-color: #ffdddd;
+}
+
+#regForm select {
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  width: 80%;
+  text-align-last:center;
+}
+#regForm .btn.btn-primary {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 105%;
+    /* height: 100%; */
+}
+
+#regForm .btn.btn-sucess {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 105%;
+    /* height: 100%; */
+}
+
+label {
+    font-size: 20px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+#regForm input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+#regForm .tab {
+  display: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+#regForm .step {
+  height: 15px;
+  width: 15px;
+  /* margin-top: 15px;
+  margin: 0 2px; */
+  background-color: #2c5aa0;
+  border: none;
+  /*border-radius: 50%;*/
+  border-radius: 15px;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+/* Mark the active step: */
+#regForm .step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+#regForm .step.finish {
+  background-color: #2F92AD;
+}
+
+.static-value{
+	position:absolute;
+	left:10px;
+	font-weight:bold;
+	font-size:0.8em;
+	color:#444;
+	top:9px;
+}

@@ -1,0 +1,18 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "transport": "scp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "ftp.dev.webtop.gr",
+  "target": "/home/devwebtopgrusr/public_html",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "devwebtopgrusr",
+  "password": "Dv$rvDm?2bFyebQ9",
+  "watch": []
+}

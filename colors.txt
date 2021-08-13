@@ -1,0 +1,4 @@
+letters: f7f7f7
+btns: 2c5aa0
+btn hover: 2F92AD
+letters2: 1866ad
